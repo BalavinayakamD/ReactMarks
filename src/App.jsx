@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/ReactMarks" element={<Home />} />
         <Route path="/ReactMarks/login" element={<Login />} />
         <Route path="/ReactMarks/subject" element={<Subject />} />
       </Routes>
