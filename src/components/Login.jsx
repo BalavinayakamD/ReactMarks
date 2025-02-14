@@ -16,7 +16,7 @@ export default function Login() {
       setUsername("");
       setpassword("");
     } else {
-      navigate("/subject");
+      navigate("/ReactMarks/subject");
     }
   };
 

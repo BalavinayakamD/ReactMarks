@@ -8,8 +8,8 @@ function App() {
     <>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/subject" element={<Subject />} />
+        <Route path="/ReactMarks/login" element={<Login />} />
+        <Route path="/ReactMarks/subject" element={<Subject />} />
       </Routes>
     </>
   );

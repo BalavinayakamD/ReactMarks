@@ -18,7 +18,7 @@ export default function Home() {
       <Button
         variant="outlined"
         color="secondary"
-        onClick={() => navigate("/login")}
+        onClick={() => navigate("/ReactMarks/login")}
       >
         Goto login page
       </Button>
